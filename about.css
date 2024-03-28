@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(231, 208, 208, 0.747);
+    display: flex;
+    flex-direction: column; /* To stack items vertically */
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(pexels-aleksandar-pasaric-1386454.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    margin-bottom: 40px;
+    
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 85px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 22px;
+    height: 159px;
+    width: 462px;
+    margin: auto;
+    line-height: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Add margin between content and links */
+}
+
+.aaa,
+.aaa1,
+.aaa2 {
+    text-decoration: none;
+    color: rgb(122, 121, 121);
+    font-size: 50px;
+    transition: 0.3s ease;
+    margin-top: 20px; /* Add margin between links */
+    font-weight: 100;
+}
+
+.aaa:hover,
+.aaa1:hover,
+.aaa2:hover {
+    color: brown;
+}
+
+@media screen and (max-width: 567px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .aaa,
+    .aaa1,
+    .aaa2 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .aaa,
+    .aaa1,
+    .aaa2 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+}
+
